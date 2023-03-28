@@ -39,7 +39,7 @@ This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the
 4) Looker pop-up will appear, displaying the visualization results[Looker_Studio_Report.pdf]
 5) New tables src_speed & dim_speed_cleansed should also appear
 
-###Notes
+### Notes
 Note that creation of dim_speed_cleansed caps MaxSpeed at 90
 
 ### Results
