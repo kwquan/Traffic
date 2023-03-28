@@ -2,7 +2,7 @@
 
 ### Intro
 
-Tools: Google Cloud Storage, BigQuery, Looker, DBT
+Tools: Google Cloud Storage, BigQuery, Looker, DBT <br>
 Prerequisites: Google Cloud Platform, DBT, GCP CLI
 
 This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the following:
