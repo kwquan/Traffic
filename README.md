@@ -1,7 +1,7 @@
 # Traffic Speed ELT(Real-time Traffic Speed on roads)
 
 ### Intro
-
+![alt text](https://github.com/kwquan/Traffic/blob/main/process.png)
 Tools: Google Cloud Storage, BigQuery, Looker, DBT <br>
 Prerequisites: Google Cloud Platform, DBT, GCP CLI
 
