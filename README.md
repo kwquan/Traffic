@@ -16,6 +16,7 @@ This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the
 ### Set-up
 ![alt text](https://github.com/kwquan/Traffic/blob/main/bucket.png)
 ![alt text](https://github.com/kwquan/Traffic/blob/main/folders.png)
+![alt text](https://github.com/kwquan/Traffic/blob/main/folders_2.png)
 1) Go to GCP & create a bucket using unique project_id[cloud storage > buckets > create]
 2) Open Visual Studio Code[or any code editor]. Open terminal & run 'gcloud auth login'. Also run 'gcloud config set project <project-id>' 
 3) Create a folder called 'traffic'
