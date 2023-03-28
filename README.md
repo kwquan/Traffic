@@ -14,4 +14,10 @@ This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the
 5) Use Looker to visualize data
 
 ### Set-up
+![alt text](https://github.com/kwquan/Traffic/blob/main/folders.png)
+1) Go to GCP & create a bucket using unique project_id[cloud storage > buckets > create]
+2) Open Visual Studio Code[or any code editor]. Open terminal & run 'gcloud auth login'. Also run 'gcloud config set project <project-id>' 
+3) Create a folder called 'traffic'
+4) CD to traffic & run 'dbt init traffic'[Pls ensure dbt-bigquery is installed & working]
+5) Enter all credentials & establish connection  
 
