@@ -32,9 +32,9 @@ This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the
   
 ### Run 
 ![alt text](https://github.com/kwquan/Traffic/blob/main/dbt.png)
-![alt link](https://github.com/kwquan/Traffic/blob/main/Looker_Studio_Report.pdf)
 1) Open up Visual Studio Code terminal & run 'dbt run'
 2) If successful, you should see a success message similar to above
 3) On GCP, run a simple query & click Explore Data[choose Looker]
-4) Looker pop-up will appear, displaying the visualization results similar to above
+4) Looker pop-up will appear, displaying the visualization results[Looker_Studio_Report.pdf
+5) New tables src_speed & dim_speed_cleansed should also appear
 
