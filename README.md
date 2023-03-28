@@ -32,7 +32,7 @@ This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the
   
 ### Run 
 ![alt text](https://github.com/kwquan/Traffic/blob/main/dbt.png)
-![alt text](https://github.com/kwquan/Traffic/blob/main/Looker_Studio_Report.pdf)
+![alt link](https://github.com/kwquan/Traffic/blob/main/Looker_Studio_Report.pdf)
 1) Open up Visual Studio Code terminal & run 'dbt run'
 2) If successful, you should see a success message similar to above
 3) On GCP, run a simple query & click Explore Data[choose Looker]
