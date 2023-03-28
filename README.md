@@ -25,4 +25,16 @@ This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the
 6) Create 2 folders under models[dim & src]
 7) Place src_speed.sql in src folder & dim_speed_cleansed.sql in dim folder
   
+### Create BigQuery Table
+![alt text](https://github.com/kwquan/Traffic/blob/main/bigquery.png)
+1) Go to bigquery & create RawSpeed table[BigQuery > Project > Create table]
+2) Remember to create using data from bucket with auto-detect schema
   
+### Run 
+![alt text](https://github.com/kwquan/Traffic/blob/main/dbt.png)
+![alt text](https://github.com/kwquan/Traffic/blob/main/Looker_Studio_Report.pdf)
+1) Open up Visual Studio Code terminal & run 'dbt run'
+2) If successful, you should see a success message similar to above
+3) On GCP, run a simple query & click Explore Data[choose Looker]
+4) Looker pop-up will appear, displaying the visualization results similar to above
+
