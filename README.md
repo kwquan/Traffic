@@ -21,4 +21,7 @@ This project is an end-to-end ELT[Extract,Load,Transform] pipeline that does the
 3) Create a folder called 'traffic'
 4) CD to traffic & run 'dbt init traffic'[Pls ensure dbt-bigquery is installed & working]
 5) Enter all credentials & establish connection  
-
+6) Create 2 folders under models[dim & src]
+7) Place src_speed.sql in src folder & dim_speed_cleansed.sql in dim folder
+  
+  
